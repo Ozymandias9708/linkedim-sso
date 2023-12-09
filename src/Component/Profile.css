@@ -1,0 +1,27 @@
+/* Apply some basic styling to the profile container */
+div {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  /* Style the user's profile picture */
+  img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the user's name */
+  h2 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Style the user's email */
+  p {
+    color: #777;
+  }
+  

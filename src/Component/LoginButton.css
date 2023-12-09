@@ -1,0 +1,30 @@
+/* Apply styling to the login button */
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  /* Change button color on hover and add a subtle scale effect */
+  button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  /* Add a smooth transition effect */
+  button:focus {
+    outline: none;
+  }
+  
+  /* Style for when the button is in a disabled state (optional) */
+  button:disabled {
+    background-color: #b8b8b8;
+    cursor: not-allowed;
+  }
+  
